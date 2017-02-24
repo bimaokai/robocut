@@ -57,13 +57,13 @@ public class RandomMoveDegrees : MonoBehaviour
 		sensor1Distance.GetComponent<Text> ().text = "" + niceDist1;
 		sensor2Distance.GetComponent<Text> ().text = "" + niceDist2;
 
-		if (seconds >= 10) {
+		/*if (seconds >= 10) {
 			transform.position = startPoint2.position;
 			transform.GetComponent<Rigidbody> ().useGravity = true;
 		}
 		if (seconds >= 40) {
 			transform.position = startPoint1.position;
-		}
+		}*/
 	}
 
 	void FixedUpdate ()
