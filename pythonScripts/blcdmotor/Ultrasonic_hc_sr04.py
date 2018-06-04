@@ -6,8 +6,8 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # GPIO Pins zuweisen
-GPIO_TRIGGER = 18
-GPIO_ECHO = 24
+GPIO_TRIGGER = 21
+GPIO_ECHO = 20
 
 # Richtung der GPIO-Pins festlegen (IN / OUT)
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
